@@ -60,8 +60,6 @@ class OrderManager(BaseManager):
 
     @classmethod
     def create(cls, order_data: dict, size: dict, ingredients: List[Ingredient]):
-        print(order_data)
-        print(size)
         new_order = cls.model(**order_data)
         cls.session.add(new_order)
         cls.session.flush()
