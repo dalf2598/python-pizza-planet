@@ -22,6 +22,7 @@ class BaseManager:
     @classmethod
     def get_by_id(cls, _id: Any):
         entry = cls.model.query.get(_id)
+        print(entry.__dict__)
         return cls.serializer().dump(entry)
 
     @classmethod
@@ -58,13 +59,17 @@ class OrderManager(BaseManager):
     serializer = OrderSerializer
 
     @classmethod
-    def create(cls, order_data: dict, ingredients: List[Ingredient]):
+    def create(cls, order_data: dict, size: dict, ingredients: List[Ingredient]):
+        print(order_data)
+        print(size)
         new_order = cls.model(**order_data)
         cls.session.add(new_order)
         cls.session.flush()
         cls.session.refresh(new_order)
         cls.session.add_all((OrderDetail(order_id=new_order._id, ingredient_id=ingredient._id, ingredient_price=ingredient.price)
-                             for ingredient in ingredients))
+                             for ingredient in ingredients)
+                             )
+        cls.session.add(OrderDetail(order_id=new_order._id, size_id=size['_id'], size_price=size['price']))
         cls.session.commit()
         return cls.serializer().dump(new_order)
 
