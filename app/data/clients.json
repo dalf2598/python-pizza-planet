@@ -1,0 +1,124 @@
+{
+    "clients": [
+        {
+            "client_name": "Enrique Sandoval",
+            "client_dni": "1802517019",
+            "client_address": "Quito",
+            "client_phone": "0997758299"
+        },
+        {
+            "client_name": "Maria Rodriguez",
+            "client_dni": "2309518647",
+            "client_address": "Guayaquil",
+            "client_phone": "0888765432"
+        },
+        {
+            "client_name": "Carlos Perez",
+            "client_dni": "1234567890",
+            "client_address": "Cuenca",
+            "client_phone": "0777777777"
+        },
+        {
+            "client_name": "Ana Ramirez",
+            "client_dni": "9876543210",
+            "client_address": "Machala",
+            "client_phone": "0666666666"
+        },
+        {
+            "client_name": "Luis Sanchez",
+            "client_dni": "4567890123",
+            "client_address": "Portoviejo",
+            "client_phone": "0555555555"
+        },
+        {
+            "client_name": "Elena Gomez",
+            "client_dni": "5432109876",
+            "client_address": "Loja",
+            "client_phone": "0444444444"
+        },
+        {
+            "client_name": "Pedro Torres",
+            "client_dni": "1029384756",
+            "client_address": "Santo Domingo",
+            "client_phone": "0333333333"
+        },
+        {
+            "client_name": "Laura Vargas",
+            "client_dni": "7654321098",
+            "client_address": "Ambato",
+            "client_phone": "0222222222"
+        },
+        {
+            "client_name": "Hugo Mendoza",
+            "client_dni": "9876543211",
+            "client_address": "Manta",
+            "client_phone": "0111111111"
+        },
+        {
+            "client_name": "Isabel Carvajal",
+            "client_dni": "8765432109",
+            "client_address": "Ibarra",
+            "client_phone": "0500000000"
+        },
+        {
+            "client_name": "Diego Zambrano",
+            "client_dni": "9876543212",
+            "client_address": "Cayambe",
+            "client_phone": "0999888777"
+        },
+        {
+            "client_name": "Fernanda Paredes",
+            "client_dni": "8765432108",
+            "client_address": "Esmeraldas",
+            "client_phone": "0888777666"
+        },
+        {
+            "client_name": "Ricardo Herrera",
+            "client_dni": "7654321097",
+            "client_address": "Tulcan",
+            "client_phone": "0777666555"
+        },
+        {
+            "client_name": "Julia Rivas",
+            "client_dni": "6543210987",
+            "client_address": "Salinas",
+            "client_phone": "0666555444"
+        },
+        {
+            "client_name": "Miguel Zamora",
+            "client_dni": "5432109875",
+            "client_address": "Ambato",
+            "client_phone": "0555444333"
+        },
+        {
+            "client_name": "Carolina Valencia",
+            "client_dni": "4321098765",
+            "client_address": "Machachi",
+            "client_phone": "0444333222"
+        },
+        {
+            "client_name": "Andres Cevallos",
+            "client_dni": "3210987654",
+            "client_address": "Riobamba",
+            "client_phone": "0333222111"
+        },
+        {
+            "client_name": "Natalia Castro",
+            "client_dni": "2109876543",
+            "client_address": "Babahoyo",
+            "client_phone": "0222111000"
+        },
+        {
+            "client_name": "Roberto Ortega",
+            "client_dni": "1098765432",
+            "client_address": "Ibarra",
+            "client_phone": "0111000999"
+        },
+        {
+            "client_name": "Paola Torres",
+            "client_dni": "0987654321",
+            "client_address": "Loja",
+            "client_phone": "0999111222"
+        }
+    ]
+}
