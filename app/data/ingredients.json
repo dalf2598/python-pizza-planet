@@ -1,0 +1,44 @@
+{
+    "ingredients": [
+        {
+            "name": "Pepperoni",
+            "price": 1
+        },
+        {
+            "name": "Mushrooms",
+            "price": 1.50
+        },
+        {
+            "name": "Onions",
+            "price": 0.80
+        },
+        {
+            "name": "Sausage",
+            "price": 2
+        },
+        {
+            "name": "Green Peppers",
+            "price": 0.50
+        },
+        {
+            "name": "Black Olives",
+            "price": 0.50
+        },
+        {
+            "name": "Bacon",
+            "price": 1.50
+        },
+        {
+            "name": "Tomatoes",
+            "price": 0.50
+        },
+        {
+            "name": "Cheese",
+            "price": 1.25
+        },
+        {
+            "name": "Ham",
+            "price": 1.50
+        }
+    ] 
+}

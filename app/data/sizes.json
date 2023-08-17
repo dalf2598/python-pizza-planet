@@ -1,0 +1,24 @@
+{
+    "sizes": [
+        {
+            "name": "Personal",
+            "price": 10.00
+        },
+        {
+            "name": "Small",
+            "price": 12.00
+        },
+        {
+            "name": "Medium",
+            "price": 15.00
+        },
+        {
+            "name": "Large",
+            "price": 18.00
+        },
+        {
+            "name": "Extra-Large",
+            "price": 23.00
+        }
+    ]
+}
