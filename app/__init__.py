@@ -2,6 +2,7 @@ import inspect
 
 from flask import Blueprint, Flask
 
+from app.utils.db_script import check_db_data
 
 def create_app(config_class: str):
     flask_app = Flask(__name__)
@@ -33,8 +34,11 @@ def configure_app(config_class):
     register_blueprints(flask_app)
     register_plugins(flask_app)
     cors_app(flask_app)
-
     return flask_app
 
 
 flask_app = configure_app('app.settings.Config')
+
+@flask_app.before_first_request
+def before_first_request():
+    check_db_data()
