@@ -11,7 +11,7 @@ from .fixtures.ingredient import *
 from .fixtures.order import *
 from .fixtures.size import *
 from .fixtures.beverage import *
-
+from .fixtures.index import *
 
 @pytest.fixture
 def app():
@@ -37,7 +37,7 @@ def app():
     db.drop_all()
     os.close(db_fd)
     os.remove(dbpath)
-
+    
 
 @pytest.fixture
 def client(app):

@@ -1,2 +1,2 @@
 [run]
-omit = app/test/*
+omit = app/test/*, app/data/*, manage.py
