@@ -117,7 +117,7 @@ class ReportController():
 
     @classmethod
     def insert_fake_data(cls):
-        orders = cls.create_orders(100)
+        orders = cls.create_orders(Constants.NUMBER_OF_FAKE_ORDERS)
         for order in orders:
             OrderController.create(order)
-        return jsonify({'message': '100 fake records inserted successfully'})
+        return jsonify({'message': f'{Constants.NUMBER_OF_FAKE_ORDERS} fake records inserted successfully'})
